@@ -7,3 +7,8 @@
 ## SampleAddIn
 
 + 最简单的Solidworks C# add-in 开发配置
+
+## SampleExe
+
++ 最简单的Solidworks C# 独立程序开发配置
++ 启动Solidworks并打开文件
