@@ -1,12 +1,5 @@
 ﻿using SolidWorks.Interop.sldworks;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SampleExe
@@ -47,7 +40,7 @@ namespace SampleExe
         {
             // 初始化打开文件对话框
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
-            // 筛选后缀，完全匹配图片里：*.prt;*.asm;*.drw;*.sldprt;*.sldasm;*.slddrw
+            // 筛选后缀*.prt;*.asm;*.drw;*.sldprt;*.sldasm;*.slddrw
             openFileDialog1.Filter = "SolidWorks文件(*.prt;*.asm;*.drw;*.sldprt;*.sldasm;*.slddrw)|*.prt;*.asm;*.drw;*.sldprt;*.sldasm;*.slddrw|所有文件(*.*)|*.*";
             openFileDialog1.Title = "选择SolidWorks零件/装配/工程图文件";
 
