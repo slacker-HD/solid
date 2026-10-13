@@ -34,3 +34,7 @@
 + 创建任务窗格（Task Pane）
 + 任务窗格显示/隐藏
 + 通过窗口句柄把 WinForms 用户控件嵌入任务窗格
+
+## SampleVbaMacro
+
++ 对话框内输入 Solidworks VBA 宏代码并直接运行（写入临时宏文件后调用 RunMacro2 执行）
